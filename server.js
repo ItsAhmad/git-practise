@@ -3,7 +3,7 @@ const app = express();
 const PORT = 8080; 
 
 
-app.get('/hello-world', (req, res) => {
+app.get('/', (req, res) => {
   res.end(`<!DOCTYPE html>
 <html>
   <head><title>Hello, World!</title></head>
