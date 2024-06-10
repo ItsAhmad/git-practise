@@ -19,6 +19,7 @@ app.get('/hello/:name', (req, res) => {
     res.send (`Hello ${name}!`)
 }); 
 
+
 app.get('/about', (req, res) => {
   res.end(`<!DOCTYPE html>
 <html>
@@ -37,3 +38,9 @@ app.get('/about', (req, res) => {
     </body>
 </html>`);
 });
+
+
+app.use((req,res) => {
+  res.status(404).send('Error: Page not Found')
+})
+
