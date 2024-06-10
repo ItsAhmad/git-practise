@@ -10,3 +10,8 @@ app.listen(PORT, () => {
 })
 
 
+app.get('/hello/:name', (req, res) => {
+    let name = req.params.name 
+    res.send (`Hello ${name}!`)
+}); 
+
