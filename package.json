@@ -1,0 +1,23 @@
+{
+  "name": "git-practise",
+  "version": "1.0.0",
+  "description": "Our goal in this project is to develop a basic Express application. This will be done as a team with a mentor to practice good git habits.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ItsAhmad/git-practise.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ItsAhmad/git-practise/issues"
+  },
+  "homepage": "https://github.com/ItsAhmad/git-practise#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
